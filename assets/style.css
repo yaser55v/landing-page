@@ -1,0 +1,231 @@
+:root {
+  --swiper-theme-color: #10b981 !important;
+}
+
+body {
+  font-family: "Lexend", sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  color: #1b1c57;
+}
+.me-6 {
+  margin-right: 6rem;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  margin-top: -7.25rem;
+}
+.hero-img {
+  border-bottom-left-radius: 7rem;
+}
+.expand {
+  filter: blur(120px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: aquamarine;
+  width: 40vw;
+  height: 20rem;
+  border-bottom-right-radius: 28rem;
+}
+.bg-shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+}
+.custom-search {
+  position: relative;
+
+  margin-top: 2rem;
+}
+.custom-search-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  padding: 16px 100px 16px 20px;
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+}
+.custom-search-botton {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  bottom: 3px;
+  border: 0;
+  background: #10b981;
+  color: #fff;
+  outline: none;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 100px;
+  z-index: 2;
+}
+/* feature */
+.yello {
+  color: #f59e0b;
+}
+.yello::before {
+  content: "";
+  height: 4px;
+  width: 40px;
+  display: inline-block;
+  background: #f59e0b;
+  vertical-align: middle;
+  margin-right: -41px;
+  left: -46px;
+  position: relative;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img:not(.avatar) {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+@media screen and (max-width: 992px) {
+  .swiper-container {
+    width: 90%;
+    height: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+/* CLIENT */
+/* Blurry */
+.expand-1 {
+  filter: blur(120px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fdff7fb8;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  mix-blend-mode: darken;
+}
+.expand-2 {
+  filter: blur(120px);
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  background-color: #ffcccc;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  mix-blend-mode: darken;
+}
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+/* USERS */
+
+.users .card-body {
+  position: relative;
+  background-color: #f7fdfc;
+  top: -64px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 25px;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.2);
+}
+
+/* MORE */
+/* Blurry */
+.expand-3 {
+  filter: blur(120px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #7ffff9b8;
+  width: 25%;
+  height: 30rem;
+  border-radius: 50%;
+  mix-blend-mode: darken;
+}
+.expand-4 {
+  filter: blur(120px);
+  position: absolute;
+  top: 20rem;
+  left: 4rem;
+  background-color: #fff6cc;
+  width: 25%;
+  height: 30rem;
+  border-radius: 50%;
+  mix-blend-mode: darken;
+}
+
+/* Subscribe */
+.subscribe .container {
+  background-image: url("/assets/images/bg-sub.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2rem;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+
+/* FOOTER */
+.footer .icon {
+  color: #3c4563;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.footer .icon:hover {
+  color: #5c678b;
+}
+.expand-5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 16rem;
+  width: 30rem;
+  background: #b9ff82;
+  opacity: 0.3;
+  filter: blur(120px);
+}
+.expand-6 {
+  position: absolute;
+  top: 0;
+  right: -120px;
+  height: 16rem;
+  width: 30rem;
+  background: #82bbff;
+  opacity: 0.3;
+  filter: blur(120px);
+  transform: rotate(90deg);
+}
